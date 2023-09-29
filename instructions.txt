@@ -1,0 +1,12 @@
+Challenge Instructions
+
+For this challenge, keeping in mind that our team uses Google Firebase and Google Cloud (GCP),  we would like you to simulate the implementation of a functional backend for a small portion of our app - the Bank Account Connection module. More specifically, the part of our app where a user can connect to their bank account using Plaid. The goal is that we want to be able to automagically create budgets for users using their historical bank/credit card data and as such we need to allow them to connect to their accounts using Plaid. For the challenge, we would like you to create this flow using a language of your choice.
+This exercise mainly centers around getting acquainted and comfortable with working with Plaid and integrating their API into a web/mobile application to provide users with a personalized financial dashboard, budgeting tool, or expense tracking app. Here's a the exercise exercise:
+Set Up Developer Account: Sign up for a developer account with Plaid and obtain your API keys and credentials.
+Understand Plaid API: Familiarize yourself with Plaid's API documentation, endpoints, and authentication mechanisms.
+Choose a Tech Stack: Decide on the technology stack you want to use for your application, such as React.js for the front-end and Node.js for the back-end (we use Vue and Node).
+For this exercise, you do not need to develop a user interface where users can securely log in, link their bank accounts, and view their financial data, as Plaid provides their own UI for login, but you will need to integrate Plaid Link somewhere (you can use super-rough UI) to enable users to connect their bank accounts securely.
+Handle Authentication: Implement user authentication and store access tokens securely.
+Retrieve Financial Data: Use Plaid API endpoints to retrieve users' financial data, such as account balances and transaction history.
+Route the plaid sample data into a Firestore database.
+When the exercise is complete please send a screen-recording of the functional feature in action to mainly prove that the connection does work, and in addition, be sure to show the corresponding results in Firestore after the Plaid connection is made; beyond that, please provide access to the git/bitbucket repo for code review as well.
